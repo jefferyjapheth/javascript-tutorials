@@ -1,1 +1,9 @@
 //tutorial on javascript objects
+
+//Object Definition 
+const person = {
+  firstName: "Jeffery",
+  lastName: "Japheth",
+  age: 21,
+  eyeColor: "blue"
+};
