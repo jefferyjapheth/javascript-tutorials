@@ -14,3 +14,13 @@ objectName.propertyName
 or
 
 objectName["propertyName"]
+
+//javascript methods - A method is a function stored as a const person = {
+  firstName: "Jeffery",
+  lastName : "Japheth",
+  id       : 0035,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
