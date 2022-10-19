@@ -7,3 +7,10 @@ const person = {
   age: 21,
   eyeColor: "blue"
 };
+
+//Acessing javascript objects 
+objectName.propertyName
+
+or
+
+objectName["propertyName"]
