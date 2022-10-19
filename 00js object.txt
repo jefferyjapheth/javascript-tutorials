@@ -24,3 +24,5 @@ objectName["propertyName"]
   }
 };
 
+//Accessing Object Methods
+objectName.methodName()
