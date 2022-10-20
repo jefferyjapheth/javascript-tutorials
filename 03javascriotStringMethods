@@ -18,3 +18,7 @@ let part = str.slice(-12, -6);
 //javascript String substr
 let str = "Apple, Banana, Kiwi";
 let part = str.substr(7, 6);
+
+//javascript String substring
+let str = "Apple, Banana, Kiwi";
+let part = str.substring(7, 13);
