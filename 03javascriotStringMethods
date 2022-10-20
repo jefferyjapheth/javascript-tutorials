@@ -1,6 +1,16 @@
 //tutorial for javascript string methods
 
 //javascript length-The length property returns the length of a string:
-
 let txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let length = txt.length;
+
+
+//javascript slice-slice() extracts a part of a string and returns the extracted part in a new string.
+//Slice out a portion of a string from position 7 to position 13 (13 not included):
+
+let str = "Apple, Banana, Kiwi";
+let part = str.slice(7, 13);
+
+//If a parameter is negative, the position is counted from the end of the string.
+let str = "Apple, Banana, Kiwi";
+let part = str.slice(-12, -6);
