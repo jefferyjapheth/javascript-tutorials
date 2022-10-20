@@ -14,3 +14,7 @@ let part = str.slice(7, 13);
 //If a parameter is negative, the position is counted from the end of the string.
 let str = "Apple, Banana, Kiwi";
 let part = str.slice(-12, -6);
+
+//javascript String substr
+let str = "Apple, Banana, Kiwi";
+let part = str.substr(7, 6);
