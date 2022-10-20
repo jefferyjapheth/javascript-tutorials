@@ -1,1 +1,6 @@
 //tutorial for javascript string methods
+
+//javascript length-The length property returns the length of a string:
+
+let txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = txt.length;
