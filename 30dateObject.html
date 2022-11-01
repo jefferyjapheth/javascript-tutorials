@@ -1,0 +1,37 @@
+<html>
+
+	<head>
+		<script type="text/javascript">
+		
+		
+			
+			
+		</script>
+		
+	</head>
+	
+	<body>
+		<script type="text/javascript">
+			
+			function abc()
+			{
+				document.write("Hello,Check this time:</br>");
+			}
+			
+			setInterval("abc()",2000);
+			
+			function printtime()
+			{
+				var now = new Date();
+				var hours = now.getHours();
+				var mins = now.getMinutes();
+				var sec = now.getSeconds();
+				
+				document.write(hours+":"+mins+":",+sec+"</br>");
+			}
+			
+			setInterval("printtime()",1000);
+		</script>
+	</body>
+	
+	</html>  
